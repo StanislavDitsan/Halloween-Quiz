@@ -24,9 +24,20 @@ function displayQuestion() {
     option1.innerHTML = questionsForQuiz[i].option[1];
     option2.innerHTML = questionsForQuiz[i].option[2];
     option3.innerHTML = questionsForQuiz[i].option[3];
-    stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionBank.length;
+    stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionsForQuiz.length;
 }
 
+// Function to add up scores
+
+function calcScore(e) {
+    if (e.innerHTML === questionsForQuiz[i].answer && score < questionsForQuiz.length) {
+        score = score + 1;
+        document.getElementById(e.id).style.background = 'green';
+    } else {
+        document.getElementById(e.id).style.background = 'red';
+    }
+    setTimeout(nextQuestion, 500);
+}
 
 // Quiz questions
 
