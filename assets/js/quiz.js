@@ -13,6 +13,10 @@ let span = document.querySelectorAll('span');
 let i = 0;
 let score = 0;
 
+// Event listener for click next button
+
+next.addEventListener('click', nextQuestion);
+
 // Function for displaying the questions
 
 function displayQuestion() {
