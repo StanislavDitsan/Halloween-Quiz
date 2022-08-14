@@ -93,3 +93,12 @@ h1 {
     color: red;
     transition: color 1.9s;
 }
+
+li.option {
+    color: white;
+  
+}
+
+.questions {
+    color: white;
+}
