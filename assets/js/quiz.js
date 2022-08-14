@@ -28,7 +28,7 @@ function displayQuestion() {
     option1.innerHTML = questionsForQuiz[i].option[1];
     option2.innerHTML = questionsForQuiz[i].option[2];
     option3.innerHTML = questionsForQuiz[i].option[3];
-    stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionsForQuiz.length;
+    qnum.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionsForQuiz.length;
 }
 
 // Function for displaying the next question

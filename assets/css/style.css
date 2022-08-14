@@ -44,6 +44,9 @@ h2 {
 h3,
 h4 {
     color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
 }
 
 
@@ -60,7 +63,7 @@ h4 {
     padding: 1.5rem;
 }
 
-.container > * {
+.container>* {
     width: 100%;
 }
 
@@ -103,6 +106,10 @@ button {
     font-size: 4rem
 }
 
+.buttons {
+    text-align: center;
+}
+
 /* Questions */
 #question {
     font-size: 5.5rem;
@@ -134,4 +141,28 @@ button {
 .option:focus,
 .option:active {
     transform: scale(1.1);
+}
+
+/* Answers */
+
+ol {
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1, 73, 73);
+}
+
+span {
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+
+#answer {
+    margin-top: 2.5rem;
+}
+
+#qnum {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    float: right;
 }
