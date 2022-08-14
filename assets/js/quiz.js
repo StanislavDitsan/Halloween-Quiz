@@ -56,9 +56,24 @@ function calcScore(e) {
     setTimeout(nextQuestion, 500);
 }
 
+// Function to check the answers
+
+function checkAnswer() {
+    let answersForQuiz = document.getElementById('answersForQuiz');
+    let answers = document.getElementById('answers');
+    answersForQuiz.style.display = 'block';
+    scoreboard.style.display = 'none';
+    for (let a = 0; a < questionsForQuiz.length; a++) {
+        let list = document.createElement('li');
+        list.innerHTML = questionsForQuiz[a].answer;
+        answers.appendChild(list);
+    }
+}
+
+
 // Function button back to quiz
 
-function backToQuiz(){
+function backToQuiz() {
     location.reload();
 }
 
