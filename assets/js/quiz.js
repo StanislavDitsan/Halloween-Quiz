@@ -27,6 +27,19 @@ function displayQuestion() {
     stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionsForQuiz.length;
 }
 
+// Function for displaying the next question
+
+function nextQuestion() {
+    if (i < questionsForQuiz.length - 1) {
+        i = i + 1;
+        displayQuestion();
+    } else {
+        points.innerHTML = score + '/' + questionsForQuiz.length;
+        container.style.display = 'none';
+        scoreboard.style.display = 'block';
+    }
+}
+
 // Function to add up scores
 
 function calcScore(e) {
