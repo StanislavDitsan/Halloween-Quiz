@@ -56,6 +56,12 @@ function calcScore(e) {
     setTimeout(nextQuestion, 500);
 }
 
+// Function button back to quiz
+
+function backToQuiz(){
+    location.reload();
+}
+
 // Quiz questions
 
 let questionsForQuiz = [{
