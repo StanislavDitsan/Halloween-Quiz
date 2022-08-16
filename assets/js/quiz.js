@@ -41,6 +41,7 @@ function nextQuestion() {
         points.innerHTML = score + '/' + questionsForQuiz.length;
         quizContainer.style.display = '';
         scoreboard.style.display = 'block';
+        alert(`Congratulations, you have completed the quiz! Scroll down to see the results and answers.`);
     }
 };
 
