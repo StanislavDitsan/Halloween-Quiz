@@ -1,7 +1,7 @@
 // Variables
 
-let question = document.getElementById("question");
-let container = document.getElementById("container");
+let question = document.getElementById('question');
+let quizContainer = document.getElementById('quiz-container');
 let scorecard = document.getElementById('scorecard');
 let option0 = document.getElementById('option0');
 let option1 = document.getElementById('option1');
@@ -29,7 +29,7 @@ function displayQuestion() {
     option2.innerHTML = questionsForQuiz[i].option[2];
     option3.innerHTML = questionsForQuiz[i].option[3];
     qnum.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionsForQuiz.length;
-}
+};
 
 // Function for displaying the next question
 
@@ -39,10 +39,10 @@ function nextQuestion() {
         displayQuestion();
     } else {
         points.innerHTML = score + '/' + questionsForQuiz.length;
-        container.style.display = 'none';
+        quizContainer.style.display = '';
         scoreboard.style.display = 'block';
     }
-}
+};
 
 // Function to add up scores
 
@@ -54,7 +54,7 @@ function calcScore(e) {
         document.getElementById(e.id).style.background = 'red';
     }
     setTimeout(nextQuestion, 500);
-}
+};
 
 // Function to check the answers
 
@@ -75,7 +75,7 @@ function checkAnswer() {
 
 function backToQuiz() {
     location.reload();
-}
+};
 
 // Quiz questions
 
