@@ -82,6 +82,9 @@ h4 {
 
 /* Buttons */
 
+button.next {
+    display: none;
+}
 
 .btn {
     font-size: 4rem;
