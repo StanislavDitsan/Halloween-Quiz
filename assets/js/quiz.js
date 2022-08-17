@@ -91,44 +91,44 @@ let questionsForQuiz = [{
         answer: "A coven"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: 'What would you traditionally bob for at Halloween parties?',
+        option: ["Pumpkin", "Grapes", "Oranges", "Apples"],
+        answer: "Apples"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: "Who wrote the novel “Dracula”?",
+        option: ["Bram Stoker", "Ben Lerner", "Walt Whitman", "William Butler Yeats"],
+        answer: "Bram Stoker"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: "Which actor made his film debut in A Nightmare on Elm Street?",
+        option: ["Jim Carrey", "Johnny Depp", "Michael Myers", "Tom Hanks"],
+        answer: "Johnny Depp"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: 'Who is the villain in the movie "Halloween?"',
+        option: ["Tom Atkins", "Michael Myers", "John Carpenter", "Ed Gein"],
+        answer: "Michael Myers"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: 'What does the name Dracula mean?',
+        option: ["The Devil's own son", "A devil's child", "Son of the Devil", "Devil of the night"],
+        answer: "Son of the Devil"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: 'Which phobia means you have an intense fear of Halloween?',
+        option: ["Halloweenophobia", "Samhainophobia", "Melissophobia", "Nyctophobia"],
+        answer: 'Samhainophobia'
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: 'Out of which vegetable were "Jack OLanterns" originally made?',
+        option: ["Pumpkin", "Turnips", "Butternut Squash", "Watermelon"],
+        answer: "Turnips"
     },
     {
-        question: '',
-        option: [''],
-        answer: ''
+        question: 'How many Oscars was Psycho nominated for?',
+        option: ['1', '3', '4', '5'],
+        answer: '4'
     },
 
 ];
