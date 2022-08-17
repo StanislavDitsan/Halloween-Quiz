@@ -133,4 +133,18 @@ let questionsForQuiz = [{
 
 ];
 
+// Timer bar
+
+let timeleft = 100;
+let downloadTimer = setInterval(function () {
+    if (timeleft <= 0) {
+        clearInterval(downloadTimer);
+        alert(`Time has run out! however, the quiz can still be completed.`);
+    }
+    document.getElementById("timerBar").value = 100 - timeleft;
+    timeleft -= 1;
+}, 1000);
+alert(`You will face an additional challenge! But it is entirely up to you. If you run out of time, you will not lose the game. 
+Complete the quiz before the timer runs out. Keep an eye on the timer bar.`);
+
 displayQuestion();
