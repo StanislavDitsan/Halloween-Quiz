@@ -274,7 +274,6 @@ progress[value]::-webkit-progress-value {
         max-width: 100px;
         text-align: center;
         margin-left: 15.5rem;
-        position: fixed;
     }
 
     .btn {
@@ -291,7 +290,6 @@ progress[value]::-webkit-progress-value {
     .container {
         text-align: center;
         margin: 0 auto;
-        ;
     }
 
     .btn {
