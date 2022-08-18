@@ -196,6 +196,8 @@ span {
     float: right;
 }
 
+/* Scoreboard count */
+
 #scoreboard,
 #answersForQuiz {
     width: 20rem;
@@ -262,4 +264,43 @@ progress[value]::-webkit-progress-value {
         -webkit-linear-gradient(left, rgb(0, 0, 0), #f44);
     border-radius: 2px;
     background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+/* Media queries for index.html */
+@media screen and (max-width:425px) {
+
+    .container {
+        max-width: 100px;
+        text-align: center;
+        margin-left: 15.5rem;
+        position: fixed;
+    }
+
+    .btn {
+        font-size: 5rem;
+    }
+
+    h1 {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .container {
+        text-align: center;
+        margin: 0 auto;
+        ;
+    }
+
+    .btn {
+        font-size: 6rem;
+        margin-bottom: 8.5rem;
+    }
+
+    h1 {
+        white-space: nowrap;
+        font-size: 9.5rem;
+    }
 }
