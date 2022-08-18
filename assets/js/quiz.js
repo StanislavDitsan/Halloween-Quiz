@@ -13,10 +13,13 @@ let span = document.querySelectorAll('span');
 let i = 0;
 let score = 0;
 
-// Event listener for click next button
+// Event listener for click next button and home page
 
 next.addEventListener('click', nextQuestion);
 
+btnHome.onclick = function() {
+    window.location.replace("index.html");
+  }
 // Function for displaying the questions
 
 function displayQuestion() {

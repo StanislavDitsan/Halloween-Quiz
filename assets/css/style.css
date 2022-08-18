@@ -153,6 +153,19 @@ button.next {
     transition: color 1.9s;
 }
 
+#btnHome {
+    font-size: 2.5rem;
+    float: left;
+    margin-top: 1.4rem;
+}
+
+#btnHome:hover {
+    cursor: pointer;
+    transform: translateY(-0.6rem);
+    color: red;
+    transition: color 1.9s;
+}
+
 button {
     background-color: transparent;
     padding: 0.3rem 1.5rem;
