@@ -263,21 +263,3 @@ progress[value]::-webkit-progress-value {
     border-radius: 2px;
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
-
-/* Progress bar */
-
-#progressBar {
-    margin-top: 2rem;
-    width: 20rem;
-    height: 3rem;
-    border: solid rgba(255, 255, 255, 0.678) 0.1rem;
-    border-radius: 1rem 1rem;
-}
-
-#progressBarFull {
-    height: 2.9rem;
-    width: 50%;
-    border: solid rgba(255, 255, 255, 0.678) 0.1rem;
-    border-radius: 0.9rem 1rem;
-    background-color: rgba(255, 0, 0, 0.488);
-}

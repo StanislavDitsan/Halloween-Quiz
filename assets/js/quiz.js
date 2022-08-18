@@ -144,7 +144,6 @@ let downloadTimer = setInterval(function () {
     document.getElementById("timerBar").value = 100 - timeleft;
     timeleft -= 1;
 }, 1000);
-alert(`You will face an additional challenge! But it is entirely up to you. If you run out of time, you will not lose the game. 
-Complete the quiz before the timer runs out. Keep an eye on the timer bar.`);
+alert(`Complete the quiz before the timer runs out. Keep an eye on the timer bar.`);
 
 displayQuestion();
