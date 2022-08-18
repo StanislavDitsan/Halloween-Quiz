@@ -11,7 +11,7 @@
 </head>
 
 <body>
-        <!-- Timer bar -->
+    <!-- Timer bar -->
     <progress value="0" max="100" id="timerBar"></progress>
 
     <div id="quiz-container">
@@ -25,26 +25,26 @@
                 <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
             </ol>
             <h4 id="qnum">0</h4>
-    </div>
+        </div>
 
-    <div class="buttons">
-        <button type="button" class="next">Next</button>
-    </div>
+        <div class="buttons">
+            <button type="button" class="next">Next</button>
+        </div>
 
-    <!-- Score section -->
-    <div id="scoreboard">
-        <h2 id="score-title">Score</h2>
-        <h2 id="score">0</h2>
-        <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
-    </div>
+        <!-- Score section -->
+        <div id="scoreboard">
+            <h2 id="score-title">Score</h2>
+            <h2 id="score">0</h2>
+            <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+        </div>
 
-    <!-- Answers -->
-    <div id="answersForQuiz">
-        <h2>Answers :</h2>
-        <ol type="1" id="answers"></ol>
-        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        <!-- Answers -->
+        <div id="answersForQuiz">
+            <h2>Answers :</h2>
+            <ol type="1" id="answers"></ol>
+            <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        </div>
     </div>
-
 
     <script src="assets/js/quiz.js"></script>
 </body>
