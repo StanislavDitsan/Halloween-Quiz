@@ -1,108 +1,181 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Halloween Quiz](readme-files/hallo-quiz-responsive.png)
 
-Welcome STANNIDITSANNI,
+This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. The quiz is intended to be enjoyable and entertaining. The quiz's features are simple to use and navigate. The rules of the quiz are simple: answer as many correct questions as possible before time runs out! 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ 
+#### To play **`Halloween Quiz`** click 🦇 [here](https://stanislavditsan.github.io/Halloween-Quiz/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Table of Content
+- [User Experience](#user-experience)
 
-## Gitpod Reminders
+  * [UX](#user-experience)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  * [Project Goal](#project-goal)
 
-`python3 -m http.server`
+  * [User Objectives](#user-objectives)
 
-A blue button should appear to click: _Make Public_,
+- [Features](#features)
 
-Another blue button should appear to click: _Open Browser_.
+  * [The Home Page](#the-home-page)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  * [Quiz Page](#quiz-page)
 
-A blue button should appear to click: _Make Public_,
+- [Design](#design)
 
-Another blue button should appear to click: _Open Browser_.
+  * [Color Scheme](#color-Scheme)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  * [Typography](#typography)
 
-To log into the Heroku toolbelt CLI:
+- [Wireframes](#wireframes)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  * [Desktop](#desktop)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  * [Tablet](#tablet)
 
-------
+  * [Mobile](#mobile)
 
-## Release History
+- [Languages Used](#languages-used)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- [Technologies Used and Tools](#technologies-used-and-tools)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- [Testing](#testing)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  * [Lighthouse](#lighthouse)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  * [Code Validation](#code-validation)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  * [Browser Compatibility](#browser-compatibility)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  * [Responsiveness](#responsiveness)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- [Bugs](#bugs)  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- [Deployment](#deployment) 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- [Credits](#credits)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  * [Content](#content)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  * [Acknowledgements](#acknowledgements)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  
 
-------
+ 
+# User Experience
 
-## FAQ about the uptime script
+## As a first time visitor I am able to: 
 
-**Why have you added this script?**
+- View an alert message with instructions.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- See the difference between selecting the correct or incorrect answer with green for correct and red for incorrect.
 
-**How will this affect me?**
+- View the total number of questions before and after the answer was submitted.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- View the total score after the quiz was completed.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- The ability to check the answers after completing the quiz.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The ability to return and restart the quiz.
 
-**So….?**
+- The option to go back to the home page.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Access the app from any piece of technology such as smartphone, tablet, laptop or computer and be able to view all of the original content without any loss.
 
-**Can I opt out?**
+# Project Goal
+-  Create the quiz to be as informative and user friendly.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Allow the user to answer the quiz questions by selecting one of four answer options before the timer runs out.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Be able to see the total score.
 
-**Anything more?**
+- Be able to see the total number of questions.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- Be able to see the correct answers after completing the quiz.
 
----
+- Be able to provide instruction information to the user.
 
-Happy coding!
+
+# User Objectives
+
+- A website that provides an easy-to-understand quiz game.
+
+- A website with visual interaction.
+
+- A website with a modern design.
+
+- A website that makes it simple to find and understand quiz controls.
+
+- A website with which I can interact on a desktop, tablet, or mobile device.
+
+
+# Features
+
+## The home page 
+
+![Home-Page](readme-files/home-page.gif)
+
+- I wanted a simple homepage with a Halloween vibe, so I added the spooky font. 
+
+- I used red to create a blood-like effect, and I used bats animation to give the page some movement. 
+
+- I added a play button to allow users to jump right into the quiz, and I believe the homepage is simple to use.
+
+- Plugin to display the bats animation was taken from [jQueryscript](https://www.jqueryscript.net/animation/halloween-bats-flying-around.html) 
+
+
+
+## Quiz Page
+
+![Quiz-Page](readme-files/quiz-page.gif)
+
+The quiz page was created with a clean layout, well-placed buttons with hover effects, a lovely spooky typography, and a dark gradient background.
+
+- An alert pop-up message appears at the start of the quiz, stating ` “Complete the quiz before the timer runs out. Keep an eye on the timer bar” `
+
+- A timer bar appears at the top of the page.
+
+![Timer-bar](readme-files/timer-bar.gif)
+
+- The Halloween quiz Page contains four different options for answering the questions.
+
+- When you submit answer by simply clicking, you get a nice hover effect and a background of red and green.
+
+![Hover-answer](readme-files/hover-quiz.gif)
+
+- There is also a question counter and a home page button on the page.
+
+![Question-counter](readme-files/question-counter.png)
+
+<p align="center">
+ <img src="readme-files/home-page.btn.png">
+</p>
+
+- When the timer runs out, an alert pop-up message appears,
+stating 
+` “Time has run out! however, the quiz can still be completed” `
+
+## Quiz page after answering all the questions 
+ 
+- An alert pop-up message appears once all of the questions have been answered.
+ “Congratulations, you have completed the quiz! Scroll down to see the results and answers”.
+
+- You can see your overall score, review the answers, and return to the quiz by scrolling down once the quiz is completed .
+
+# Design
+
+- To achieve a Halloween vibe, I chose a spooky font. I used dark colors to tie the quiz into the Halloween theme, with red accents to represent blood.
+
+## Why did I choose to do a Halloween quiz?
+
+- As one of my favorite holidays, I decided to create a Halloween quiz. It is the only dark holiday of the year. It's a lot of fun to dress up and enjoy other people's outfits. 
+
+- Decorating your home space, or yard is enjoyable. Everything is done for laughs. 
+
+- This quiz is simply a fun extra activity to do with friends or family during Halloween. 
+
+- In the future, I intend to increase the total number of questions.
+
+
