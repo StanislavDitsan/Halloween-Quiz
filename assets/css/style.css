@@ -156,7 +156,7 @@ button.next {
 #btnHome {
     font-size: 2.5rem;
     float: left;
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
 }
 
 #btnHome:hover {
@@ -185,6 +185,9 @@ button {
     font-size: smaller;
 }
 
+li {
+    cursor: pointer;
+}
 
 .questions {
     height: 90vh;
