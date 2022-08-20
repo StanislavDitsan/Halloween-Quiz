@@ -189,8 +189,11 @@ For the project, these colors were chosen :
 ## Typography
 
 -  [Jolly Lodger](https://fonts.google.com/specimen/Jolly+Lodger) a frightening cartoon font, created by Font Diner.
+
 - The font is distributed under the terms of the SIL Open Font License. 
+
 - The font is free to use for personal and commercial purposes, as well as to modify and distribute. 
+
 - [Google Fonts](https://fonts.google.com/) also offers this web-font.
 
 # Languages Used
@@ -216,7 +219,7 @@ For the project, these colors were chosen :
 
 ### [Google Fonts](https://fonts.google.com/)
 
-- Google fonts were used to import the 'Jolly Lodger' font was linked directly to all of the html pages.
+- Google fonts were used to import the [Jolly Lodger](https://fonts.google.com/specimen/Jolly+Lodger), font was linked directly to all of the html pages.
 
 ### [jQuery](https://www.jqueryscript.net/)
 
@@ -249,4 +252,123 @@ For the project, these colors were chosen :
 ### [Favicon & App Icon Generator](https://www.favicon-generator.org/)
 
 - Used to create a site favicon.
+
+# Testing
+
+## Lighthouse
+
+- Lighthouse, a Chrome DevTool, is used to analyze a site for SEO, performance, accessibility.
+
+<sub>Here are some of the results</sub>
+
+![Lighthouse-index.html](readme-files/lighthouse-index.html.png)
+
+![Lighthouse-quiz.html](readme-files/lighthouse-quiz.html.png)
+
+# Code Validation
+
+## W3C HTML Validator
+- Home Page
+![W3C-HTML](readme-files/html-checker1.png)
+- Quiz Page
+![W3C-HTML](readme-files/html-checker2.png)
+
+## W3C CSS Validator
+
+### CSS validator passed with no errors
+- ![W3C-CSS](readme-files/W3C-CSS-Validator.png)
+
+## Browser Compatibility
+
+- The website was checked for errors using Mozilla Firefox, Safari, and Google Chrome. Across a range of device sizes and browsers, appearance, functionality, and responsiveness remained constant.
+
+## Responsiveness
+- Responsive design tests were performed using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+
+- Responsiveness was achieved by using media queries.
+
+ - I also tested it on an iPhone 8 Plus, an iPhone 11, an iPad Pro, and a MacBook Air.
+ 
+# Bugs
+
+While working on this quiz project, I found some bugs. The bug consists primarily of mobile and tablet devices.
+
+<p align="center">
+ <img src="readme-files/quiz-bug.gif">
+</p>
+
+- The hover effect on the answer box does not return to its initial position after submission. 
+- The only way to prevent this is to select the actual letter choice and after selecting the answer.
+- Additionally, the letters A, B, C, D, are shuffled in the wrong order.
+
+## How did I solve this problem?
+
+- I haven't yet come up with a solution to these bugs.
+
+# Deployment
+
+## This project was created with the [GitPod](https://gitpod.io/) by committing to git and pushing to [GitHub ](https://github.com/).
+
+The following procedures were used to publish this page to GitHub Pages from the speciﬁc GitHub repository:
+
+1. The first step is to sign in to Github and navigate to the appropriate repository.
+
+2. Click the settings button at the top of the repository.
+
+3. Scroll down to the section GitHub Pages.
+
+4. Select the Main branch under Source.
+
+5. Hit Save button, and the website is now deployed.
+
+6. The webpage's URL can be found at the top of the GitHub Pages section.
+
+## How should this project be carried out locally?
+
+To clone this project from GitHub, follow these steps:
+
+1. Access the Project GitHub repository.
+
+2. Under the repository name click on the ‘Code’ tab
+
+3. Click the clipboard icon in the clone box's HTTPS tab.
+
+4. Open GitBash in your IED.
+
+5. Change your current working directory to the location where the cloned directory will be created.
+
+6. Type "git clone" and then paste the GitHub URL.
+
+7. Press enter and the local clone will be created.
+
+
+## How to Fork the Repository?
+
+The repository can be forked to produce a second copy that can be modified without changing the original.
+
+1. Log in to Github and navigate to the desired repository.
+
+2. Click "fork" at the top of the repository.
+
+3. A copy of your github account will now be created.
+
+# Credits
+
+- Aung Thapya is to be thanked for the tutorial, which may be viewed at its original location at [Morioh](https://morioh.com/p/0836e90e5b19). It aided me in the development of my project.
+
+- Some code-related issues have been resolved utilizing [Stack Overflow](https://stackoverflow.com/).
+
+- [W3Schools](https://www.w3schools.com/) is used for problem solving.
+
+-  The README.md was influenced by both my earlier project and a number of other students I came across.
+
+### Content
+- Some of the questions for quiz were used from [icebreakerideas](https://icebreakerideas.com/halloween-trivia/) 
+
+## Acknowledgements
+
+- I would like to thank [Harry Dhillon](https://github.com/Harry-Leepz), my course mentor, for his guidance and advice throughout the project.
+
+- I also want to thank my wife for coming up with some of the questions that are Halloween-related and for mentally supporting me while I worked through this project.
+
 
