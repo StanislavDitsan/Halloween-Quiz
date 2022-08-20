@@ -113,7 +113,7 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 
 # Features
 
-## The home page 
+## The Home Page 
 
 ![Home-Page](readme-files/home-page.gif)
 
@@ -133,13 +133,15 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 
 The quiz page was created with a clean layout, well-placed buttons with hover effects, a lovely spooky typography, and a dark gradient background.
 
+***In the future, I intend to increase the total number of questions.***
+
 - An alert pop-up message appears at the start of the quiz, stating ` “Complete the quiz before the timer runs out. Keep an eye on the timer bar” `
 
 - A timer bar appears at the top of the page.
 
 ![Timer-bar](readme-files/timer-bar.gif)
 
-- The Halloween quiz Page contains four different options for answering the questions.
+- The Halloween Quiz Page contains four different options for answering the questions.
 
 - When you submit answer by simply clicking, you get a nice hover effect and a background of red and green.
 
@@ -160,7 +162,7 @@ stating
 ## Quiz page after answering all the questions 
  
 - An alert pop-up message appears once all of the questions have been answered.
- “Congratulations, you have completed the quiz! Scroll down to see the results and answers”.
+ ` “Congratulations, you have completed the quiz! Scroll down to see the results and answers” `
 
 - You can see your overall score, review the answers, and return to the quiz by scrolling down once the quiz is completed .
 
@@ -168,14 +170,83 @@ stating
 
 - To achieve a Halloween vibe, I chose a spooky font. I used dark colors to tie the quiz into the Halloween theme, with red accents to represent blood.
 
-## Why did I choose to do a Halloween quiz?
+## Why did I choose to do a Halloween Quiz?
 
-- As one of my favorite holidays, I decided to create a Halloween quiz. It is the only dark holiday of the year. It's a lot of fun to dress up and enjoy other people's outfits. 
+- As one of my favorite holidays, I decided to create a Halloween quiz. It is the only dark holiday of the year. It's a lot of fun to dress up and enjoy other people's outfits. Decorating your home, or yard is enjoyable. Everything is done for fun. 
 
-- Decorating your home space, or yard is enjoyable. Everything is done for laughs. 
+- This quiz is simply a fun extra activity to do with friends or family during Halloween.
 
-- This quiz is simply a fun extra activity to do with friends or family during Halloween. 
+## Color Scheme
+For the project, these colors were chosen :
 
-- In the future, I intend to increase the total number of questions.
+- `linear-gradient(to bottom, #051937, #171228, #190a1a, #12040d, #000000)` <sup>background on all pages</sup>
 
+- ⚫️ <sup>black</sup>
+- ⚪️ <sup>white</sup>
+- 🔴 <sup>red</sup>
+- 🟢 <sup>green</sup>
+
+## Typography
+
+-  [Jolly Lodger](https://fonts.google.com/specimen/Jolly+Lodger) a frightening cartoon font, created by Font Diner.
+- The font is distributed under the terms of the SIL Open Font License. 
+- The font is free to use for personal and commercial purposes, as well as to modify and distribute. 
+- [Google Fonts](https://fonts.google.com/) also offers this web-font.
+
+# Languages Used
+
+- [HTML](https://html.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JavaScript](https://www.javascript.com/)
+ 
+# Technologies Used and Tools
+
+### [Color Space](https://mycolor.space/)
+
+- Color Space was used to create gradient background.
+
+### [JSHint](https://jshint.com/)
+- JSHint was used as a tool to detect errors and problems in JavaScript code.
+
+### [CSS-Tricks](https://css-tricks.com/)
+- CSS-Tricks was used for hover effects and as a resource.
+
+### [ezGIF](https://ezgif.com/)
+- ezGIF was used as an online GIF maker and image editor.
+
+### [Google Fonts](https://fonts.google.com/)
+
+- Google fonts were used to import the 'Jolly Lodger' font was linked directly to all of the html pages.
+
+### [jQuery](https://www.jqueryscript.net/)
+
+- jQuery plugin was used to add bats animation for the home page.
+
+### [GitPod](https://gitpod.io/)
+
+- Gitpod was used to edit code within the project for the site and to push commitments. 
+
+### [GitHub ](https://github.com/)
+
+- GitHub was used to create the repository and store the project code after it has been pushed from Git.
+
+### [Balsamiq](https://balsamiq.com/wireframes/)
+
+-  Balsamiq was used to create the wireframes during the design phase.
+
+### [Google Chrome](https://www.google.com/chrome/)
+
+ - Chrome was used to debug and test the website's source code as well as to check for responsiveness.
+
+### [Am I Responsive](https://ui.dev/amiresponsive/)
+
+- Used to generate the live site images
+
+### [W3C Markup Validation Service](https://validator.w3.org/)
+
+- This service was used to check the HTML and CSS files for errors.
+
+### [Favicon & App Icon Generator](https://www.favicon-generator.org/)
+
+- Used to create a site favicon.
 
