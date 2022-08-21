@@ -206,6 +206,21 @@ For the project, these colors were chosen :
 
 - [Google Fonts](https://fonts.google.com/) also offers this web-font.
 
+# Wireframes
+ The Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/)
+
+## Desktop 
+ - Index & Quiz 
+![Wireframe](readme-files/wireframe-desktop.png)
+
+## Tablet
+- Index & Quiz 
+![Wireframe-tablet](readme-files/wireframe-tablet.png)
+
+## Mobile
+- Index & Quiz
+![Wireframe-mobile](readme-files/wireframe-mobile.png)
+
 # Languages Used
 
 - [HTML](https://html.com/)
