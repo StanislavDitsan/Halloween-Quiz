@@ -13,6 +13,10 @@ let span = document.querySelectorAll('span');
 let i = 0;
 let score = 0;
 
+//Audio 
+const audio = new Audio('assets/sound/click.mp3')
+const button = document.querySelector('ol')
+
 // Event listener for click next button and home page
 
 next.addEventListener('click', nextQuestion);
@@ -20,6 +24,7 @@ next.addEventListener('click', nextQuestion);
 btnHome.onclick = function() {
     window.location.replace("index.html");
   }
+  
 // Function for displaying the questions
 
 function displayQuestion() {
@@ -148,5 +153,12 @@ let downloadTimer = setInterval(function () {
     timeleft -= 1;
 }, 1000);
 alert(`Complete the quiz before the timer runs out. Keep an eye on the timer bar.`);
+
+// Audio on click
+
+button.addEventListener('click', (e) => {
+  audio.play()
+  audio.volume = 0.1;
+})
 
 displayQuestion();
