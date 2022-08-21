@@ -22,7 +22,7 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 
 - [Design](#design)
 
-  * [Color Scheme](#color-Scheme)
+  * [Color Scheme](#color-scheme)
 
   * [Typography](#typography)
 
@@ -115,7 +115,10 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 
 ## The Home Page 
 
-![Home-Page](readme-files/home-page.gif)
+<p align="center">
+ <img src="readme-files/home-page.gif">
+</p>
+
 
 - I wanted a simple homepage with a Halloween vibe, so I added the spooky font. 
 
@@ -126,10 +129,11 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 - Plugin to display the bats animation was taken from [jQueryscript](https://www.jqueryscript.net/animation/halloween-bats-flying-around.html) 
 
 
-
 ## Quiz Page
 
-![Quiz-Page](readme-files/quiz-page.gif)
+<p align="center">
+ <img src="readme-files/quiz-page.gif">
+</p>
 
 The quiz page was created with a clean layout, well-placed buttons with hover effects, a lovely spooky typography, and a dark gradient background.
 
@@ -139,17 +143,23 @@ The quiz page was created with a clean layout, well-placed buttons with hover ef
 
 - A timer bar appears at the top of the page.
 
-![Timer-bar](readme-files/timer-bar.gif)
+<p align="center">
+ <img src="readme-files/timer-bar.gif">
+</p>
 
 - The Halloween Quiz Page contains four different options for answering the questions.
 
 - When you submit answer by simply clicking, you get a nice hover effect and a background of red and green.
 
-![Hover-answer](readme-files/hover-quiz.gif)
+<p align="center">
+ <img src="readme-files/hover-quiz.gif">
+</p>
 
 - There is also a question counter and a home page button on the page.
 
-![Question-counter](readme-files/question-counter.png)
+<p align="center">
+ <img src="readme-files/question-counter.png">
+</p>
 
 <p align="center">
  <img src="readme-files/home-page.btn.png">
@@ -298,7 +308,7 @@ While working on this quiz project, I found some bugs. The bug consists primaril
 </p>
 
 - The hover effect on the answer box does not return to its initial position after submission. 
-- The only way to prevent this is to select the actual letter choice and after selecting the answer.
+- The only way to prevent this is to select the actual letter choice and after select the answer.
 - Additionally, the letters A, B, C, D, are shuffled in the wrong order.
 
 ## How did I solve this problem?
