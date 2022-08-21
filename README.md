@@ -151,6 +151,8 @@ The quiz page was created with a clean layout, well-placed buttons with hover ef
 
 - When you submit answer by simply clicking, you get a nice hover effect and a background of red and green.
 
+- On submission, a click sound is also played. 
+
 <p align="center">
  <img src="readme-files/hover-quiz.gif">
 </p>
@@ -249,6 +251,10 @@ For the project, these colors were chosen :
 ### [jQuery](https://www.jqueryscript.net/)
 
 - jQuery plugin was used to add bats animation for the home page.
+
+### [Fesliyanstudios](https://www.fesliyanstudios.com/)
+
+- Sound was added using Fesliyanstudios (click for a list of answers).
 
 ### [GitPod](https://gitpod.io/)
 
