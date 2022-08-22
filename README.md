@@ -40,6 +40,8 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 
 - [Testing](#testing)
 
+  * [Testing User Stories](#testing-user-stories)
+
   * [Lighthouse](#lighthouse)
 
   * [Code Validation](#code-validation)
@@ -69,6 +71,14 @@ This **🎃 `Halloween` 🎃** trivia quiz will put your knowledge to the test. 
 ## As a first time visitor I am able to: 
 
 - View an alert message with instructions.
+
+- View the timer bar above the questions. 
+
+- Get notified when the timer is up.
+
+- View an alert message once the quiz is finished.
+
+- The ability to hear the sound when submitting an answer.
 
 - See the difference between selecting the correct or incorrect answer with green for correct and red for incorrect.
 
@@ -285,6 +295,10 @@ For the project, these colors were chosen :
 - Used to create a site favicon.
 
 # Testing
+
+## Testing User Stories
+
+- By clicking here, you can access a separate page containing testing user stories.
 
 ## Lighthouse
 
