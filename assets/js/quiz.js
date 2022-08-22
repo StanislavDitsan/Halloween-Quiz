@@ -1,4 +1,3 @@
-// Variables
 
 let question = document.getElementById('question');
 let quizContainer = document.getElementById('quiz-container');

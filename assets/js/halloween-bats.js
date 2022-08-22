@@ -1,3 +1,7 @@
+// Plugin to display the bats animation was taken from jQueryscript
+// https://www.jqueryscript.net/animation/halloween-bats-flying-around.html
+
+
 (function ($) {
 
 	'use strict';
