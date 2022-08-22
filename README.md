@@ -298,7 +298,7 @@ For the project, these colors were chosen :
 
 ## Testing User Stories
 
-- By clicking here, you can access a separate page containing testing user stories.
+- By clicking [here](https://github.com/StanislavDitsan/Halloween-Quiz/blob/main/readme-files/testing-user-stories.pdf), you can access a separate page containing testing user stories.
 
 ## Lighthouse
 
